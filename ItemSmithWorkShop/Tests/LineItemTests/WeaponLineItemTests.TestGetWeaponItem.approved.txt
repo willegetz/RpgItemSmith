@@ -1,0 +1,9 @@
+Name: 'Dagger'
+Base Price: '2 gp'
+Weight: '1 pound(s)'
+Damage: '1d4 [19-20/x2]' Piercing or Slashing
+Range Increment: ' feet'
+Hardness: '10'
+Hit Points: '2'
+Dagger: The dagger is a common secondary weapon. You get a +2 bonus on
+	Sleight of Hand checks made to conceal a dagger on your body.

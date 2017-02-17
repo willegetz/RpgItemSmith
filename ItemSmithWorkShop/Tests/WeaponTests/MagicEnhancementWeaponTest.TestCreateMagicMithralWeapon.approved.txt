@@ -1,0 +1,9 @@
++1 Mithral Dagger:	'2502 gp'	('+1 value')
+Weight: '0.5 pound(s)'
+To Hit: '+1'
+Damage: '1d4 +1'
+Hardness: '12'
+Hit Points: '12'
+Dagger: The dagger is a common secondary weapon. You get a +2 bonus on
+	Sleight of Hand checks made to conceal a dagger on your body.
+Mithral: Mithral weapons are always considered to be masterwork quality.

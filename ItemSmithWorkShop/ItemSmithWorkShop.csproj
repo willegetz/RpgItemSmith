@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9CCCBA02-1EE3-4694-854F-C3555092D7CD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ItemSmithWorkShop</RootNamespace>
+    <AssemblyName>ItemSmithWorkShop</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ApprovalTests, Version=1.14.4417.31530, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\ApprovalTests.1.4\lib\ApprovalTests.dll</HintPath>
+    </Reference>
+    <Reference Include="ApprovalUtilities, Version=1.14.4417.31529, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\ApprovalTests.1.4\lib\ApprovalUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdventureItems\ExtraordinaryWeaponUtilities\ExtraordinaryQualityWeapon.cs" />
+    <Compile Include="AdventureItems\ExtraordinaryWeaponUtilities\MaterialComponentOrder.cs" />
+    <Compile Include="AdventureItems\Interfaces\ILineItems.cs" />
+    <Compile Include="Items\Interfaces\IEnchantedMagicWeapon.cs" />
+    <Compile Include="Items\Interfaces\IForgedWeapon.cs" />
+    <Compile Include="Items\Interfaces\IPlusEnhancedWeapon.cs" />
+    <Compile Include="Items\MaterialTypes\AlchemicalSilver.cs" />
+    <Compile Include="Items\Weapons\EnchantedMagicWeapon.cs" />
+    <Compile Include="Items\Weapons\ForgedWeapon.cs" />
+    <Compile Include="Items\Weapons\PlusEnhancedWeapon.cs" />
+    <Compile Include="ItemTicket.cs" />
+    <Compile Include="Tests\LineItemTests\CombinedTicketTests.cs" />
+    <Compile Include="Tests\LineItemTests\MaterialIngotTests.cs" />
+    <Compile Include="Tests\LineItemTests\SpecialAbilityRequestTests.cs" />
+    <Compile Include="Tests\LineItemTests\WeaponLineItemTests.cs" />
+    <Compile Include="Tests\NewWeaponTests\EnhantedWeaponTests.cs" />
+    <Compile Include="Tests\NewWeaponTests\PhbWeaponTests.cs" />
+    <Compile Include="Tests\WeaponTests\EnchantedWeaponTest.cs" />
+    <Compile Include="Tests\WeaponTests\ExtraordinaryWeaponTest.cs" />
+    <Compile Include="Tests\WeaponTests\MagicEnhancementWeaponTest.cs" />
+    <Compile Include="Tests\WeaponTests\MundaneWeaponTest.cs" />
+    <Compile Include="Tests\WeaponTests\ProofOfConceptTest.cs" />
+    <Compile Include="Tests\WeaponTests\SizingTest.cs" />
+    <Compile Include="Items\Data\EnchantmentData.cs" />
+    <Compile Include="Items\Data\ItemData.cs" />
+    <Compile Include="Items\Data\WeaponEnchantmentTemplate.cs" />
+    <Compile Include="Items\Data\WeaponTemplate.cs" />
+    <Compile Include="Items\Interfaces\IMaterialComponent.cs" />
+    <Compile Include="Items\Interfaces\IWeapon.cs" />
+    <Compile Include="Items\Interfaces\IWeaponEnchantment.cs" />
+    <Compile Include="Items\MagicEnchantments\WeaponEnchantment.cs" />
+    <Compile Include="Items\MaterialTypes\Masterwork.cs" />
+    <Compile Include="Items\MaterialTypes\ColdIron.cs" />
+    <Compile Include="Items\MaterialTypes\Mithral.cs" />
+    <Compile Include="Items\Weapons\PhbWeapon.cs" />
+    <Compile Include="WeaponUtilities\DisplayUtilities.cs" />
+    <Compile Include="WeaponUtilities\EnchantmentDictionary.cs" />
+    <Compile Include="AdventureItems\AdventureItemUtilities\AdventureItem.cs" />
+    <Compile Include="AdventureItems\AdventureItemUtilities\AdventureItemShop.cs" />
+    <Compile Include="WeaponUtilities\EnchantmentData.cs" />
+    <Compile Include="AdventureItems\MagicWeaponUtilities\EnchantmentOrder.cs" />
+    <Compile Include="AdventureItems\MagicWeaponUtilities\EnchantedWeaponItem.cs" />
+    <Compile Include="AdventureItems\MagicWeaponUtilities\MagicWeaponItem.cs" />
+    <Compile Include="AdventureItems\WeaponSpecialQualities\MasterworkWeaponItem.cs" />
+    <Compile Include="AdventureItems\MagicWeaponUtilities\WeaponEnchanter.cs" />
+    <Compile Include="AdventureItems\MagicWeaponUtilities\WeaponEnchantment.cs" />
+    <Compile Include="AdventureItems\MundaneWeaponUtilites\WeaponItem.cs" />
+    <Compile Include="AdventureItems\MundaneWeaponUtilites\WeaponItemSmith.cs" />
+    <Compile Include="AdventureItems\WeaponItemWeaver.cs" />
+    <Compile Include="AdventureItems\MundaneWeaponUtilites\WeaponOrder.cs" />
+    <Compile Include="Tests\ExceptionTests\WeaponItemExceptionTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WeaponUtilities\LineItemDisplayUtilites.cs" />
+    <Compile Include="WeaponUtilities\MaterialComponentData.cs" />
+    <Compile Include="WeaponUtilities\MaterialComponentDictionary.cs" />
+    <Compile Include="WeaponUtilities\SizeDictionary.cs" />
+    <Compile Include="WeaponUtilities\TempWeaponDictionary.cs" />
+    <Compile Include="WeaponUtilities\WeaponChangeSize.cs" />
+    <Compile Include="WeaponUtilities\WeaponData.cs" />
+    <Compile Include="WeaponUtilities\WeaponSizing.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PhbWeapon.txt" />
+    <Content Include="Tests\LineItemTests\CombinedTicketTests.TestCombinedTicket.approved.txt">
+      <DependentUpon>CombinedTicketTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\LineItemTests\MaterialIngotTests.TestGetMithralIngot.approved.txt">
+      <DependentUpon>MaterialIngotTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\LineItemTests\SpecialAbilityRequestTests.TestRequestSpecialAbility.approved.txt">
+      <DependentUpon>SpecialAbilityRequestTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\LineItemTests\WeaponLineItemTests.TestGetWeaponItem.approved.txt">
+      <DependentUpon>WeaponLineItemTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\NewWeaponTests\EnhantedWeaponTests.TestKeenAnarchicFlamingBurstDagger.approved.txt">
+      <DependentUpon>EnhantedWeaponTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\NewWeaponTests\EnhantedWeaponTests.TestPlusEnhancementWeapon.approved.txt">
+      <DependentUpon>EnhantedWeaponTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\NewWeaponTests\EnhantedWeaponTests.TestPlusMithralWeapon.approved.txt">
+      <DependentUpon>EnhantedWeaponTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\NewWeaponTests\PhbWeaponTests.TestDisplayAnarchicEnchantment.approved.txt">
+      <DependentUpon>PhbWeaponTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\NewWeaponTests\PhbWeaponTests.TestDisplayColdIron.approved.txt">
+      <DependentUpon>PhbWeaponTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\NewWeaponTests\PhbWeaponTests.TestDisplayDagger.approved.txt">
+      <DependentUpon>PhbWeaponTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\NewWeaponTests\PhbWeaponTests.TestDisplayDistanceEnchantment.approved.txt">
+      <DependentUpon>PhbWeaponTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\NewWeaponTests\PhbWeaponTests.TestDisplayFlamingBurstEnchantment.approved.txt">
+      <DependentUpon>PhbWeaponTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\NewWeaponTests\PhbWeaponTests.TestDisplayKeenEnchantment.approved.txt">
+      <DependentUpon>PhbWeaponTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\NewWeaponTests\PhbWeaponTests.TestDisplayMithral.approved.txt">
+      <DependentUpon>PhbWeaponTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\NewWeaponTests\PhbWeaponTests.TestForgeColdIronWeapon.approved.txt">
+      <DependentUpon>PhbWeaponTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\NewWeaponTests\PhbWeaponTests.TestForgedAlchemicalSilverWeapon.approved.txt">
+      <DependentUpon>PhbWeaponTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\NewWeaponTests\PhbWeaponTests.TestForgedMasterworkAlchemicalSilverWeapon.approved.txt">
+      <DependentUpon>PhbWeaponTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\NewWeaponTests\PhbWeaponTests.TestForgedMasterworkColdIronWeapon.approved.txt">
+      <DependentUpon>PhbWeaponTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\NewWeaponTests\PhbWeaponTests.TestForgeMithralWeapon.approved.txt">
+      <DependentUpon>PhbWeaponTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\NewWeaponTests\PhbWeaponTests.TestMasterworkAlchemicalSilverWeapon.approved.txt">
+      <DependentUpon>PhbWeaponTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\NewWeaponTests\PhbWeaponTests.TestMasterworkColdIronWeapon.approved.txt">
+      <DependentUpon>PhbWeaponTests.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\EnchantedWeaponTest.TestDoubleWeaponEnchanter.approved.txt">
+      <DependentUpon>EnchantedWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\EnchantedWeaponTest.TestFlamingAdamantineWeapon.approved.txt">
+      <DependentUpon>EnchantedWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\EnchantedWeaponTest.TestFlamingColdIreonWeapon.approved.txt">
+      <DependentUpon>EnchantedWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\EnchantedWeaponTest.TestFlamingDarkwoodItem.approved.txt">
+      <DependentUpon>EnchantedWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\EnchantedWeaponTest.TestFlamingEnchantment.approved.txt">
+      <DependentUpon>EnchantedWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\EnchantedWeaponTest.TestFlamingIcyBurstDagger.approved.txt">
+      <DependentUpon>EnchantedWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\EnchantedWeaponTest.TestFlamingMithralItem.approved.txt">
+      <DependentUpon>EnchantedWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\EnchantedWeaponTest.TestFlamingSilverWeapon.approved.txt">
+      <DependentUpon>EnchantedWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\EnchantedWeaponTest.TestVorpaldagger.approved.txt">
+      <DependentUpon>EnchantedWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\EnchantedWeaponTest.TestWeaponEnchanter.approved.txt">
+      <DependentUpon>EnchantedWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\ExtraordinaryWeaponTest.TestCreateAdamantineWeapon.approved.txt">
+      <DependentUpon>ExtraordinaryWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\ExtraordinaryWeaponTest.TestCreateAlchemicalSilverWeapon.approved.txt">
+      <DependentUpon>ExtraordinaryWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\ExtraordinaryWeaponTest.TestCreateColdIronWeapon.approved.txt">
+      <DependentUpon>ExtraordinaryWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\ExtraordinaryWeaponTest.TestCreateDarkwoodWeapon.approved.txt">
+      <DependentUpon>ExtraordinaryWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\ExtraordinaryWeaponTest.TestCreateMasterWorkWeapon.approved.txt">
+      <DependentUpon>ExtraordinaryWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\ExtraordinaryWeaponTest.TestCreateMithralWeapon.approved.txt">
+      <DependentUpon>ExtraordinaryWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\MagicEnhancementWeaponTest.TestCreateMagicAdamantineWeapon.approved.txt">
+      <DependentUpon>MagicEnhancementWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\MagicEnhancementWeaponTest.TestCreateMagicAlchemicalSilverWeapon.approved.txt">
+      <DependentUpon>MagicEnhancementWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\MagicEnhancementWeaponTest.TestCreateMagicColdIronWeapon.approved.txt">
+      <DependentUpon>MagicEnhancementWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\MagicEnhancementWeaponTest.TestCreateMagicDarkwoodWeapon.approved.txt">
+      <DependentUpon>MagicEnhancementWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\MagicEnhancementWeaponTest.TestCreateMagicMithralWeapon.approved.txt">
+      <DependentUpon>MagicEnhancementWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\MagicEnhancementWeaponTest.TestCreateMagicWeapon.approved.txt">
+      <DependentUpon>MagicEnhancementWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\MagicEnhancementWeaponTest.TestDisplayFullMagicItemText.approved.txt">
+      <DependentUpon>MagicEnhancementWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\MagicEnhancementWeaponTest.TestDisplayMaxEnhancedWeaponItem.approved.txt">
+      <DependentUpon>MagicEnhancementWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\MundaneWeaponTest.TestCreateWeapon.approved.txt">
+      <DependentUpon>MundaneWeaponTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\ProofOfConceptTest.TestMasterworkOrder.approved.txt">
+      <DependentUpon>ProofOfConceptTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\ProofOfConceptTest.TestWeaponOrder.approved.txt">
+      <DependentUpon>ProofOfConceptTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\SizingTest.TestLargePlus3FlamingIcyBurstWeapon.approved.txt">
+      <DependentUpon>SizingTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\SizingTest.TestLargePlus3FlamingWeapon.approved.txt">
+      <DependentUpon>SizingTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\SizingTest.TestLargePlus3Weapon.approved.txt">
+      <DependentUpon>SizingTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\SizingTest.TestLargeSizeWeapon.approved.txt">
+      <DependentUpon>SizingTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\SizingTest.TestSmallAdamantineWeapon.approved.txt">
+      <DependentUpon>SizingTest.cs</DependentUpon>
+    </Content>
+    <Content Include="Tests\WeaponTests\SizingTest.TestSmallSizeWeapon.approved.txt">
+      <DependentUpon>SizingTest.cs</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Items\TheForge\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
++1 Cold Iron Dagger:	'4004 gp'	('+1 value')
+Weight: '1 pound(s)'
+To Hit: '+1'
+Damage: '1d4 +1'
+Hardness: '12'
+Hit Points: '12'
+Dagger: The dagger is a common secondary weapon. You get a +2 bonus on
+	Sleight of Hand checks made to conceal a dagger on your body.
+Cold Iron: Cold Iron is effective against some Fey.
+	Magic enhancements cost an additional 2000 gold pieces.

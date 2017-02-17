@@ -1,0 +1,17 @@
+Enchantment: 'Anarchic'
+Affix: 'Pre'
+Cost Modifier: '+2'
+Weapon Usage: 'Melee, Ranged'
+Standard Damage Bonus: '2d6 vs. Lawful Alignment'
+Threat Range Modifier: '0'
+Critical Damage Bonus: 'False'
+Damage Type: 'Chaotic'
+Magic Aura: 'Moderate evocation [chaotic]'
+Minimum Caster Level: '7'
+Range Increment Multiplier: '1'
+Required Feats: 'Craft Magic Arms and Armor'
+Required Spells: 'chaos hammer'
+Additional Requirements: 'Creator must be chaotic'
+Notes: '-1 temporary level to any wielder of Lawful Alignment.
+	Level loss cannot be overcome in any way while the
+	weapon is wielded.'

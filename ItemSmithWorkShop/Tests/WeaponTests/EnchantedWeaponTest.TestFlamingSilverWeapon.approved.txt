@@ -1,0 +1,20 @@
++1 Alchemical Silver Dagger, Flaming:	'8322 gp'	('+2 value')
+To Hit: '+1'
+Damage: '1d4 +0 +1D6(Fire) [19-20 x2]' Piercing or Slashing, Magic
+Hardness: '14'
+Hit Points: '22'
+Weight: '1 pound(s)'
+Dagger: The dagger is a common secondary weapon. You get a +2 bonus on
+	Sleight of Hand checks made to conceal a dagger on your body.
+Alchemical Silver: Alchemical Silver bypasses damage reduction on lycanthropes
+Flaming: Upon command, a flaming weapon is sheathed in fire.
+	The fire does not harm the wielder. The effect
+	remains until another command is given.
+
+Creator Caster Level: '10'
+Time to Create: '8 Days'
+Creation XP Cost: '320'
+Creation Raw Material Cost: '4322'
+
+	Required Feats: Craft Magic Arms and Armor
+	Required Spells: flame blade, flame strike, or fireball

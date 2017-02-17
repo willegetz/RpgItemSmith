@@ -1,0 +1,12 @@
+Name: Flaming
+Enhancement Bonus: '1'
+Minimum Caster Level: '10'
+Damage: ' +1D6'
+Critical Damage: ''
+Damage Type: 'Fire'
+Creation Requirements:
+	Required Spells: flame blade, flame strike, or fireball
+Description:
+	Flaming: Upon command, a flaming weapon is sheathed in fire.
+	The fire does not harm the wielder. The effect
+	remains until another command is given.

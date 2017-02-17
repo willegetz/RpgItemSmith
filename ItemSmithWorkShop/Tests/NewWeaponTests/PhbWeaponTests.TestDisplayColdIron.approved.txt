@@ -1,0 +1,5 @@
+Material:	'Cold Iron'
+Cost Multiplier:	'x2 to base cost'
+Additional Cost to Enchant:	'2000 gold pieces'
+This Material Bestows "Masterwork" Qualities: 'False'
+Special Info: This iron mined deep underground, known for its	effectiveness against fey creatures, is forged at a	lower temperature to preserve its delicate properties.

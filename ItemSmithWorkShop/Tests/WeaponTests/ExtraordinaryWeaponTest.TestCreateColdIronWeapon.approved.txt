@@ -1,0 +1,9 @@
+Cold Iron Short Sword:	'20 gp'
+Weight: '2 pound(s)'
+To Hit: ''
+Damage: '1d6'
+Hardness: '10'
+Hit Points: '2'
+Short Sword: This sword is popular as an off-hand weapon.
+Cold Iron: Cold Iron is effective against some Fey.
+	Magic enhancements cost an additional 2000 gold pieces.

@@ -1,0 +1,31 @@
+Given Name: 'My Magic Friend!'
+Special Components: 'Alchemical Silver, Masterwork'
+Weapon Name: '+1 Alchemical Silver Dagger'
+This Weapon is Masterwork Quality: 'True'
+This Weapon is Magical :'True'
+Weaopn Proficiency: 'Simple'
+Weapon Category: 'Light Melee, Thrown'
+Weapon Size: 'Medium'
+Weapon Cost: '2322 gold pieces'
+Extra Cost When Made Magical: '0 gold pieces'
+To Hit Bonus: '+1'
+Damage: '1d4 [19-20/x2] Piercing or Slashing, Magic'
+Range Increment: '10 feet [50 feet max]'
+Weight: '1 pounds'
+Hardness: '12'
+Hit Points: '12'
+Special: +2 bonus on Sleight of Hand checks made to conceal a
+	dagger on your body
+I am an alchemical silver weapon
+This is a finely crafted weapon of masterwork quality
+
+Creation Requirements
+Required Feats: 'Craft Magic Arms and Armor'
+Minimum Caster Level: '3'
+Creation Time: '2 days'
+Raw Material Cost: '1322 gold pieces'
+Experience Point Cost: '80 xp'
+Magic Aura: 'Faint evocation'
+Light Generation: This weapon generates light as per the "Light" spell.
+	This weapon's light can't be conealed when drawn,
+	nor can its light be shut off.

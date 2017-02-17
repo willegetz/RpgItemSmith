@@ -1,0 +1,29 @@
+Given Name: ''
+Special Components: 'Mithral'
+Weapon Name: '+3 Mithral Dagger'
+This Weapon is Masterwork Quality: 'True'
+This Weapon is Magical :'True'
+Weaopn Proficiency: 'Simple'
+Weapon Category: 'Light Melee, Thrown'
+Weapon Size: 'Medium'
+Weapon Cost: '18502 gold pieces'
+Extra Cost When Made Magical: '0 gold pieces'
+To Hit Bonus: '+3'
+Damage: '1d4 +3 [19-20/x2] Piercing or Slashing, Magic'
+Range Increment: '10 feet [50 feet max]'
+Weight: '0.5 pounds'
+Hardness: '16'
+Hit Points: '32'
+Special: +2 bonus on Sleight of Hand checks made to conceal a
+	dagger on your body
+Mithral is a very rare, silvery, glistening metal
+	that is lighter than iron but just as hard.
+
+Creation Requirements
+Required Feats: 'Craft Magic Arms and Armor'
+Minimum Caster Level: '9'
+Creation Time: '18 days'
+Raw Material Cost: '9502 gold pieces'
+Experience Point Cost: '720 xp'
+Magic Aura: 'Moderate evocation'
+Light Generation: This weapon does not generate light.

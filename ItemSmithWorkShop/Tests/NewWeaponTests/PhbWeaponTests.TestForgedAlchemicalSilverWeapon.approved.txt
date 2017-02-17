@@ -1,0 +1,18 @@
+Given Name: ''
+Special Components: 'Alchemical Silver'
+Weapon Name: 'Alchemical Silver Dagger'
+This Weapon is Masterwork Quality: 'False'
+Weaopn Proficiency: 'Simple'
+Weapon Category: 'Light Melee, Thrown'
+Weapon Size: 'Medium'
+Weapon Cost: '22' gold pieces
+Extra Cost When Made Magical: '0' gold pieces
+To Hit Bonus: ''
+Damage: '1d4 -1' [19-20/x2] Piercing or Slashing
+Range Increment: '10 feet ['50' feet max]'
+Weight: '1 pounds'
+Hardness: '10'
+Hit Points: '2'
+Special: +2 bonus on Sleight of Hand checks made to conceal a
+	dagger on your body
+I am an alchemical silver weapon

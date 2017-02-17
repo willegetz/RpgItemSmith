@@ -1,0 +1,12 @@
+Material:	'Mithral'
+Armor Cost Modifiers:
+	Light:	'1000' gold pieces
+	Medium:	'4000' gold pieces
+	Heavy:	'9000' gold pieces
+Shield Cost Modifier:	'1000' gold pieces
+Weapon Cost Modifier:	'500' gold pieces per pound
+Item Cost Modifier:	'500' gold pieces per pound
+Spell Failure Reduction:	'10%'
+Max Dex Reduction:	'-2'
+Armor Check Penalty Reduction:	'-3'
+This Material Bestows "Masterwork" Qualities: 'True'

@@ -1,0 +1,9 @@
+Name: 'Masterwork Dagger'
+Cost: '302'
+To Hit: '+1'
+Damage: '1d4'
+Weight: '1'
+Description:
+Dagger: The dagger is a common secondary weapon. You get a +2 bonus on
+	Sleight of Hand checks made to conceal a dagger on your body.
+Masterwork: A masterwork Masterwork Dagger has an additional +1 to hit.

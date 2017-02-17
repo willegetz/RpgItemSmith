@@ -1,0 +1,77 @@
+﻿The statistics of the basic Dagger in D&D 3.5
+Assumes a medium creature
+Weapon Name: 		Dagger
+Weapon Proficiency: Simple
+Weapon Category: 	Light
+Weapon Attack Type: Melee
+Weapon Cost: 		2 gold pieces
+To Hit Modifier:	+0
+Base Damage:		1d4 + 0
+Threat Range:		19-20
+Critical Damage:	x2
+Weapon Weight:		1 pound
+Damage Type(s):		Piercing or Slashing
+Hardness:			10
+Hit Points			2
+
+Masterwork changes:
+Name (Masterwork [weapon])
+To Hit (+1)
+Price (+300)
+
+Adamantine changes:
+Name (Adamantine [weapon])
+Material ([Adamantine])
+To Hit (+1)
+Price (+3000)
+Hit Points (1.33 * Hit Points)
+Special ("Bypass 20 Hardness")
+
+Darkwood
+Wooden Item only
+COnsidered Masterwork
+Weight is halved
+Price = (Weight * 10) + Masterwork Cost
+
+Cold Iron
+Metal Item Only
+Price = 2 x base cost
+	Any magic enhancements cost an additional 2k gold
+Special Text: Effective against some fey
+
+Mithral
+Metal Only
+Weight is halved
+Cost = base cost + (Weight * 500)
+
+Alchemical Silver
+Metal Only
+Special Text: Bypasses Damage Reduction of lycanthropes
+Damage: -1
+Doesn't work with Adamantine, cold iron, mithral
+Cost for dagger = base cost + 20
+
+[Magic +] [Quality] [Material] [Weapon] [of] [Magic Property] [and] [Magic Property] ...
+[Race Requirement] [Alignment Requirement] [Proficiency Requirement]
+[Weapon Class]
+[To Hit]
+[Damage] [Magic +] [Damage Modifier] [Damage Types] [Additional Damage Types]
+[Hardness] [Hit Points]
+[Weight]
+[Cost]
+[Notes]
+
+*************************************************
+*					Dagger						*
+*	+0 To Hit | 1d4 +0 | 19-20/ x2				*
+*************************************************
+*	Simple Weapon Proficiency					*
+*	Light Melee									*
+*	Piercing or Slashing						*
+*												*
+*	Hardness:	10								*
+*	Hit Points:	2								*
+*												*
+*	Weight:		1 pound							*
+*	2 gold pieces								*
+*************************************************

@@ -1,0 +1,10 @@
+Name: Mithral 
+Cost Modifier: '500 gold pieces'
+	Additional Cost: '0'
+Weight Multiplier: '0.5'
+Is Masterwork: 'True'
+Masterwork Cost: '0'
+To Hit Bonus: '+1'
+Damage Modifier: '0'
+Description:
+	Mithral: Mithral weapons are always considered to be masterwork quality.

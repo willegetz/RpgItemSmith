@@ -1,0 +1,17 @@
+Enchantment: 'Distance'
+Affix: 'Pre'
+Cost Modifier: '+1'
+Weapon Usage: 'Ranged'
+Standard Damage Bonus: ''
+Threat Range Modifier: '0'
+Critical Damage Bonus: 'False'
+Damage Type: ''
+Magic Aura: 'Moderate divination'
+Minimum Caster Level: '6'
+Range Increment Multiplier: '2'
+Required Feats: 'Craft Magic Arms and Armor'
+Required Spells: 'clairaudience/clairvoyance'
+Additional Requirements: ''
+Notes: 'This property can only be placed on a ranged weapon.
+	A weapon of distance has double the range
+	increment of other weapons of its kind'

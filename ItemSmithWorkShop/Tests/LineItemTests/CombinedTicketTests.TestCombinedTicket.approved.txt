@@ -1,0 +1,42 @@
+Name: 'Short Sword'
+Base Price: '10 gp'
+Weight: '2 pound(s)'
+Damage: '1d6 [19-20/x2]' Slashing
+Range Increment: ' feet'
+Hardness: '10'
+Hit Points: '2'
+Short Sword: This sword is popular as an off-hand weapon.
+
+Name: Cold Iron 
+Cost Modifier: '2 gold pieces'
+	Additional Cost: '2000'
+Weight Multiplier: '1'
+Is Masterwork: 'True'
+Masterwork Cost: '0'
+To Hit Bonus: ''
+Damage Modifier: '0'
+Description:
+	Cold Iron: Cold Iron is effective against some Fey.
+	Magic enhancements cost an additional 2000 gold pieces.
+
+Name: Icy Burst
+Enhancement Bonus: '2'
+Minimum Caster Level: '10'
+Damage: ' +1D6'
+Critical Damage: ' +1d10'
+Damage Type: 'Cold'
+Creation Requirements:
+	Required Spells: chill metal or ice storm
+Description:
+	Icy Burst: An icy burst weapon functions as a frost weapon that also
+	explodes with frost upon striking a successful critical hit.
+	The frost does not harm the wielder. In addition to the extra
+	damage from the frost ability, an icy burst weapon deals an
+	extra 1d10 points of cold damage on a successful critical hit.
+	If the weapon’s critical multiplier is ×3, add an extra 2d10
+	points of cold damage instead, and if the multiplier is ×4,
+	add an extra 3d10 points. Bows, crossbows, and slings so
+	crafted bestow the cold energy upon their ammunition.
+	Even if the frost ability is not active, the weapon still
+	deals its extra cold damage on a successful critical hit.
+

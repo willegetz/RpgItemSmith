@@ -1,0 +1,19 @@
+Given Name: 'Carlyle's Special Greeting'
+Special Components: 'Mithral'
+Weapon Name: 'Mithral Dagger'
+This Weapon is Masterwork Quality: 'True'
+Weaopn Proficiency: 'Simple'
+Weapon Category: 'Light Melee, Thrown'
+Weapon Size: 'Medium'
+Weapon Cost: '502' gold pieces
+Extra Cost When Made Magical: '0' gold pieces
+To Hit Bonus: '+1'
+Damage: '1d4' [19-20/x2] Piercing or Slashing
+Range Increment: '10 feet ['50' feet max]'
+Weight: '0.5 pounds'
+Hardness: '10'
+Hit Points: '2'
+Special: +2 bonus on Sleight of Hand checks made to conceal a
+	dagger on your body
+Mithral is a very rare, silvery, glistening metal
+	that is lighter than iron but just as hard.

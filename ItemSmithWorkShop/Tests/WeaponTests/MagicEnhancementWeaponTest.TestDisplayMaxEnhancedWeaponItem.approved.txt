@@ -1,0 +1,15 @@
++5 Dagger:	'50302 gp'	('+5 value')
+To Hit: '+5'
+Damage: '1d4 +5 [19-20 x2]' Piercing or Slashing, Magic
+Hardness: '20'
+Hit Points: '52'
+Weight: '1 pound(s)'
+Dagger: The dagger is a common secondary weapon. You get a +2 bonus on
+	Sleight of Hand checks made to conceal a dagger on your body.
+
+Creator Caster Level: '15'
+Time to Create: '50 Days'
+Creation XP Cost: '2000'
+Creation Raw Material Cost: '25302'
+
+	Required Feats: Craft Magic Arms and Armor

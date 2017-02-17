@@ -1,0 +1,25 @@
++1 Dagger, Vorpal:	'72302 gp'	('+6 value')
+To Hit: '+1'
+Damage: '1d4 +1 [19-20 x2]' Piercing or Slashing, Magic
+Hardness: '22'
+Hit Points: '62'
+Weight: '1 pound(s)'
+Dagger: The dagger is a common secondary weapon. You get a +2 bonus on
+	Sleight of Hand checks made to conceal a dagger on your body.
+Vorpal: This potent and feared ability allows the weapon to sever the heads
+	of those it strikes. Upon a roll of natural 20 (followed by a successful
+	roll to confirm the critical hit), the weapon severs the opponent's
+	head (if it has one) from its body. Some creatures, such as many
+	aberrations and all oozes, have no heads. Others, such as golems
+	and undead creatures other than vampires, are not affected by the
+	loss of their heads. Most other creatures, however, die when their
+	heads are cut off.
+	A vorpal weapon must be a slashing weapon.
+
+Creator Caster Level: '18'
+Time to Create: '72 Days'
+Creation XP Cost: '2880'
+Creation Raw Material Cost: '36302'
+
+	Required Feats: Craft Magic Arms and Armor
+	Required Spells: circle of death, keen edge

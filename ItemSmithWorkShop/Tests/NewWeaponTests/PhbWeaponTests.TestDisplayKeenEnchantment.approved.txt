@@ -1,0 +1,17 @@
+Enchantment: 'Keen'
+Affix: 'Pre'
+Cost Modifier: '+1'
+Weapon Usage: 'Melee, Ranged'
+Standard Damage Bonus: ''
+Threat Range Modifier: '2'
+Critical Damage Bonus: 'False'
+Damage Type: ''
+Magic Aura: 'Moderate transmutation'
+Minimum Caster Level: '10'
+Range Increment Multiplier: '0'
+Required Feats: 'Craft Magic Arms and Armor'
+Required Spells: 'keen edge'
+Additional Requirements: ''
+Notes: 'Only piercing or slashing weapons can be keen. The keen
+	benefit does not stack with any other effect that expands
+	the threat range of a weapon.'

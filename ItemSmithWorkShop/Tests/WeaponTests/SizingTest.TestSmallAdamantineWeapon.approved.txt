@@ -1,0 +1,10 @@
+Adamantine Dagger [Small]:	'3002 gp'
+Weight: '0.665 pound(s)'
+To Hit: '+1'
+Damage: '1d3'
+Hardness: '5'
+Hit Points: '1'
+Dagger: The dagger is a common secondary weapon. You get a +2 bonus on
+	Sleight of Hand checks made to conceal a dagger on your body.
+Adamantine: Adamantine weapons are always considered to be masterwork quality.
+	Adamantine bypasses a damage reduction of 20.

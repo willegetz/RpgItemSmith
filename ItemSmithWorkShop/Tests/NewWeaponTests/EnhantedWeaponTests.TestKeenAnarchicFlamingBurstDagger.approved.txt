@@ -1,0 +1,52 @@
+Given Name: Totally Awesome Slashy Pokey Death from Far Far Away!
+Weapon: +4 Anarchic, Distance, Keen Dagger of Flaming Burst
+Special Component(s): Masterwork
+Weapon Size: Medium
+Proficiency: Simple
+Type: Light Melee, Thrown
+Enhancement Total: +10 [+4 for Plus Enhancement, +2 for Anarchic, +1 for Distance, +2 for Flaming Burst, +1 for Keen]
+Weapon Cost: 200302 gold pieces
+To Hit: +4
+Standard Damage: 1d4 +4 +2d6 vs. Lawful Alignment (Chaotic) +1d6 (Fire) [17-20/x2] +1d10 (Fire), Piercing or Slashing, Magic
+Range: 20 foot increment (was 10 foot increment) for 100 total feet (was 50 total feet)
+Weight: 1 pound(s)
+Hardness: 18
+Hit Points: 42
+
+Special Information
++2 bonus on Sleight of Hand checks made to conceal a
+	dagger on your body
+This is a finely crafted weapon of masterwork quality
+
+Enchantment Information
+Anarchic: -1 temporary level to any wielder of Lawful Alignment.
+	Level loss cannot be overcome in any way while the
+	weapon is wielded.
+Distance: This property can only be placed on a ranged weapon.
+	A weapon of distance has double the range
+	increment of other weapons of its kind
+Flaming Burst: 
+Keen: Only piercing or slashing weapons can be keen. The keen
+	benefit does not stack with any other effect that expands
+	the threat range of a weapon.
+This weapon generates light as per the "Light" spell.
+	This weapon's light can't be conealed when drawn,
+	nor can its light be shut off.
+
+Creation Information
+Required Feats: Craft Magic Arms and Armor
+Minimum Caster Level: 12
+Required Spells
+	Anarchic: chaos hammer
+	Distance: clairaudience/clairvoyance
+	Flaming Burst: flame blade, flame strike, or fireball
+	Keen: keen edge
+Magic Auras
+	Enhancement: Strong evocation
+	Anarchic: Moderate evocation [chaotic]
+	Distance: Moderate divination
+	Flaming Burst: Strong evocation
+	Keen: Moderate transmutation
+Material Cost: 100302 gp
+Experience Cost: 8000 xp
+Time Cost: 200 days

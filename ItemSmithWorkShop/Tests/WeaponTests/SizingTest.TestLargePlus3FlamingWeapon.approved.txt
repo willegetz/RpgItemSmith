@@ -1,0 +1,19 @@
++3 Dagger [Large], Flaming:	'32304 gp'	('+4 value')
+To Hit: '+3'
+Damage: '1d6 +3 +1D6(Fire) [19-20 x2]' Piercing or Slashing, Magic
+Hardness: '28'
+Hit Points: '44'
+Weight: '2 pound(s)'
+Dagger: The dagger is a common secondary weapon. You get a +2 bonus on
+	Sleight of Hand checks made to conceal a dagger on your body.
+Flaming: Upon command, a flaming weapon is sheathed in fire.
+	The fire does not harm the wielder. The effect
+	remains until another command is given.
+
+Creator Caster Level: '10'
+Time to Create: '32 Days'
+Creation XP Cost: '1280'
+Creation Raw Material Cost: '16304'
+
+	Required Feats: Craft Magic Arms and Armor
+	Required Spells: flame blade, flame strike, or fireball
